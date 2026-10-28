@@ -1,0 +1,20 @@
+PRICE WARS — IMPORT INTO GOOGLE AI STUDIO
+=======================================
+
+This ZIP contains the COMPLETE SOURCE PROJECT, not a one-page prompt or a mock-up.
+
+1. Extract the ZIP to a computer.
+2. Create a PRIVATE GitHub repository named "price-wars-business-simulation".
+3. Upload the project files to the repository (including src/, server/, shared/, tests/, package.json, Dockerfile and README.md). Do NOT upload .env, any teacher recovery keys or other secrets.
+4. Open https://aistudio.google.com/ and select Build.
+5. Use Add files (+) → Import from GitHub, select your repository, and import the project.
+6. Paste the instruction below into Build mode.
+7. When the code imports, ask AI Studio to install dependencies, run `npm run check`, `npm test` and `npm run build`, then resolve anything that fails.
+8. Complete Firestore and Cloud Run hosting as outlined in README.md, with a protected teacher setup PIN. Test with multiple devices before using it in class.
+
+PASTE INTO GOOGLE AI STUDIO:
+
+"I am importing an existing, full-stack, multiplayer classroom application called PRICE WARS. It uses React, TypeScript, Node.js, Express, Socket.IO and a server-side financial and market simulation engine. Please retain and work with the existing files. Do not replace them with a static mock-up or move authoritative calculations to the browser. Install dependencies and run the project's checks/tests/build. Fix any errors while preserving: (1) student QR/room-code joining without user accounts; (2) protected teacher controls; (3) server-authoritative pricing, demand, sales, stock, labour, cash and operating profit; (4) shared live rooms and reconnection; (5) the teacher's eight market shock events; (6) results CSV/JSON export; and (7) the responsive student, teacher and projector views. After build verification, guide me through Firestore and Google Cloud Run deployment with a single authoritative service instance and a secure teacher PIN. Do not add Google sign-in for students. Keep CAIE Business 9609 learning objectives central. My school uses UK English and NZ dollars."
+
+IMPORTANT:
+Google AI Studio's embedded preview may not faithfully reproduce a permanently hosted, multi-device WebSocket game until its Node server and deployment are running. Do not accept a preview as proof of multiplayer behaviour. Run a real class-scale test after deployment.
